@@ -25,6 +25,7 @@ const overlay = document.querySelector("[data-overlay]");
 // modal variable
 const modalImg = document.querySelector("[data-modal-img]");
 const modalTitle = document.querySelector("[data-modal-title]");
+const modalCompany = document.querySelector("[data-modal-company]");
 const modalText = document.querySelector("[data-modal-text]");
 
 // modal toggle function
