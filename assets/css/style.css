@@ -76,6 +76,7 @@
   --fs-6: 14px;
   --fs-7: 13px;
   --fs-8: 11px;
+  --fs-9: 10px;
 
   /* font-weight */
   --fw-300: 300;
@@ -171,6 +172,10 @@ article {
   height: 1px;
   background: var(--jet);
   margin: 16px 0;
+}
+
+.gap {
+  margin: 20px 0;
 }
 
 .icon-box {
@@ -417,10 +422,10 @@ main {
 
 .copyright {
   color: var(--white-1);
-  font-size: var(--fs-8);
+  font-size: var(--fs-9);
   /* text-transform: uppercase; */
-  margin-left: 20px;
-  margin-top: 20px;
+  /* margin-left: 20px; */
+  margin-top: 15px;
 }
 
 .contact-info :is(.contact-link, time, address) {
@@ -1366,6 +1371,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .separator { margin: 32px 0; }
 
+  .gap { margin: 40px 0; }
+
   .contacts-list { gap: 20px; }
 
   .contact-info {
@@ -1876,6 +1883,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     opacity: 0;
   }
 
+  
   .social-list { justify-content: center; }
 
 
