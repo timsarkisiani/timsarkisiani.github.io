@@ -1175,9 +1175,9 @@ main {
 .form-input:focus { border-color: var(--orange-yellow-crayola); }
 
 textarea.form-input {
-  min-height: 100px;
-  height: 120px;
-  max-height: 200px;
+  min-height: 300px;
+  height: 220px;
+  max-height: 600px;
   resize: vertical;
   margin-bottom: 25px;
 }
@@ -1532,7 +1532,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .mapbox {
-    height: 380px;
+    height: 480px;
     border-radius: 18px;
   }
 
