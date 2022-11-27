@@ -314,7 +314,7 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 130px;
+  max-height: 115px;
   overflow: hidden;
   transition: var(--transition-2);
 }
@@ -844,6 +844,7 @@ main {
 .skills-title { margin-bottom: 20px; }
 
 .skills-list { padding: 20px; }
+.skills-list { margin-bottom: 20px; }
 
 
 .skills-item:not(:last-child) { margin-bottom: 15px; }
