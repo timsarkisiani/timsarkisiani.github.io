@@ -77,6 +77,7 @@
   --fs-7: 13px;
   --fs-8: 11px;
   --fs-9: 10px;
+  --fs-10: 12px;
 
   /* font-weight */
   --fw-300: 300;
@@ -466,7 +467,7 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: hsla(240, 1%, 17%, 0.75);
+  background: hsl(240, 1%, 17%);
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
   border-radius: 12px 12px 0 0;
@@ -484,8 +485,8 @@ main {
 
 .navbar-link {
   color: var(--light-gray);
-  font-size: var(--fs-8);
-  padding: 20px 7px;
+  font-size: var(--fs-10);
+  padding: 20px 14px;
   transition: color var(--transition-1);
 }
 
