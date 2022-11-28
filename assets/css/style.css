@@ -443,7 +443,7 @@ main {
   gap: 15px;
   padding-top: 20px;
   padding-bottom: 4px;
-  padding-left: 7px;
+  /* padding-left: 7px; */
 }
 
 .social-item .social-link {
@@ -965,7 +965,7 @@ main {
 .project-img {
   position: relative;
   width: 100%;
-  height: 200px;
+  height: 250px;
   border-radius: 16px;
   overflow: hidden;
   margin-bottom: 15px;
@@ -1231,6 +1231,13 @@ textarea.form-input::-webkit-resizer { display: none; }
 .form-btn:disabled:hover { background: var(--border-gradient-onyx); }
 
 .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
+
+
+
+
+
+
+
 
 
 
