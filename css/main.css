@@ -6,6 +6,8 @@
 :root {
 	--index: calc(1vw + 1vh);
 	--text: #e7e7e0;
+	--white: hsl(0, 0%, 100%);
+	--gray: hsla(0, 0%, 84%, 0.7);
 	--transition: transform .75s cubic-bezier(.075, .5, 0, 1);
 }
 @font-face {
@@ -126,3 +128,34 @@ body {
 	font-size: calc(var(--index) * .75);
 	letter-spacing: calc(var(--index) / 37.5);
 }
+
+.btn {
+	position: relative;
+  width: 100%;
+  background: var(--border-gradient-onyx);
+  color: var(--orange-yellow-crayola);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 20px;
+
+  border-radius: 14px;
+  font-size: var(--fs-6);
+  text-transform: capitalize;
+  box-shadow: var(--shadow-3);
+  z-index: 1;
+  transition: var(--transition-1);
+  }
+
+
+.social-item .social-link {
+	color: var(--white);
+	font-size: 18px;
+  }
+  
+  
+  .social-item .social-link:hover { color: var(--gray); }
+
+
+  
